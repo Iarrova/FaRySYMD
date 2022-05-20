@@ -1,5 +1,3 @@
 ---
-title: "Welcome to my blog"
+title: "Writeups for Machines and Challenges, made by yours truly"
 ---
-
-Blog where I'll be uploading some writeups for easy machines, nothing to see here...
