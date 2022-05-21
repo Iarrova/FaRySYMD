@@ -62,10 +62,10 @@ where we can see `nmap` is telling us that FTP has Anonymous FTP login allowed, 
 ## FTP
 Now that we know that FTP protocol is accessible, we just need to connect using the terminal
 ```
-┌──kali@kali$ ftp 10.129.6.95
-Connected to 10.129.6.95.
+┌──kali@kali$ ftp 10.129.206.5
+Connected to 10.129.206.5.
 220 (vsFTPd 3.0.3)
-Name (10.129.6.95:kali): anonymous
+Name (10.129.206.5:kali): anonymous
 331 Please specify the password.
 Password: 
 230 Login successful.
@@ -84,4 +84,10 @@ local: flag.txt remote: flag.txt
 226 Transfer complete.
 32 bytes received in 00:00 (0.21 KiB/s)
 ftp> 
+```
+
+And we finally get our flag value
+```
+┌──kali@kali$ cat flag.txt
+035db21c881520061c53e0536e44f815
 ```
