@@ -18,7 +18,7 @@ Meow is the first machine in HackTheBox's relatively new beginner path "Starting
 ### nmap
 `nmap` finds one open TCP port: Telnet (23).
 ```
-kali@kali$ nmap -p- 10.129.189.95
+┌──kali@kali$ nmap -p- 10.129.189.95
 Starting Nmap 7.92 ( https://nmap.org ) at 2022-05-20 16:18 EDT
 Nmap scan report for 10.129.189.95
 Host is up (0.15s latency).
@@ -30,7 +30,7 @@ Nmap done: 1 IP address (1 host up) scanned in 13.79 seconds
 ```
 
 ```
-kali@kali$ nmap -p 23 -sCV 10.129.189.95
+┌──kali@kali$ nmap -p 23 -sCV 10.129.189.95
 Starting Nmap 7.92 ( https://nmap.org ) at 2022-05-20 16:19 EDT
 Nmap scan report for 10.129.189.95
 Host is up (0.14s latency).
@@ -47,7 +47,7 @@ Nmap done: 1 IP address (1 host up) scanned in 21.56 seconds
 Telnet is an application protocol used on the Internet to provide bidirectional interactive text-oriented communication facility using a virtual terminal connection. We connect to the mahine using `telnet 10.129.189.95`
 
 ```
-kali@kali$ telnet 10.129.189.95
+┌──kali@kali$ telnet 10.129.189.95
 Trying 10.129.189.95...
 Connected to 10.129.189.95.
 Escape character is '^]'.
