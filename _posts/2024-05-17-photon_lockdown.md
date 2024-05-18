@@ -13,7 +13,7 @@ tags: Challenge Hardware
 
 **Flag:** `HTB{N0w_Y0u_C4n_L0g1n}`
 
-[Challenge](../_challenges/Photon\ Lockdown.zip)
+[Challenge](https://github.com/Iarrova/FaRySYMD/raw/my-pages/_challenges/Photon%20Lockdown.zip)
 
 ## Writeup
 In Photon Lockdown we are given the root file system (rootfs) of an Optical Network Terminal.
